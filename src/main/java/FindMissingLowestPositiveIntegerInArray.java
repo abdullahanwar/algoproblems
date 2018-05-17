@@ -1,6 +1,6 @@
 import static java.lang.Math.abs;
 
-public class MissingPositiveIntegerInArray {
+public class FindMissingLowestPositiveIntegerInArray {
     /**
      * Given an array A of N integers, returns the smallest positive integer (greater than 0) that does not occur in A.
      *
@@ -43,7 +43,7 @@ public class MissingPositiveIntegerInArray {
     }
 
     public static void main(String args[]) {
-        MissingPositiveIntegerInArray msp = new MissingPositiveIntegerInArray();
+        FindMissingLowestPositiveIntegerInArray msp = new FindMissingLowestPositiveIntegerInArray();
         System.out.println(msp.solution(new int[] {-1}));
     }
 
