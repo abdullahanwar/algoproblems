@@ -1,5 +1,8 @@
 import static java.lang.Math.abs;
 
+/**
+ * Find the sum difference with place p, where sum of element left of p and right of p have minimum.
+ */
 public class SumDifferenceTwoPartsOfArray {
 
     public int solution(int A[]) {

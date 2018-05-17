@@ -1,5 +1,8 @@
 import java.util.Arrays;
 
+/**
+ * Cycle an array given a number K, right shifting
+ */
 public class CyclicRotation {
     public int gcd(int m, int n) {
         m = m > 0 ? m : -m;
@@ -27,7 +30,6 @@ public class CyclicRotation {
         if (A.length == 0) return A;
         int k = K % A.length;
         int minCycle = gcd(A.length, k);
-        // write your code in Java SE 8
         for (int j=0; j<minCycle; j++) {
             int targetIndex = j, key = A[j], temp;
             for (int i = 0; i < A.length/minCycle; i ++) {
