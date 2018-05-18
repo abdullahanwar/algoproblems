@@ -1,3 +1,5 @@
+package org.algo.codility;
+
 import static java.lang.Math.abs;
 
 public class FindMissingLowestPositiveIntegerInArray {

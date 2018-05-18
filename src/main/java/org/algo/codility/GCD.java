@@ -1,3 +1,5 @@
+package org.algo.codility;
+
 public class GCD {
     public int gcd(int m, int n) {
         m = m > 0 ? m : -m;

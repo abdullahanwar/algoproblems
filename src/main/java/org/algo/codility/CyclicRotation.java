@@ -1,3 +1,5 @@
+package org.algo.codility;
+
 import java.util.Arrays;
 
 /**

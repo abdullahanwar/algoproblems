@@ -1,3 +1,5 @@
+package org.algo.codility;
+
 /**
  * Find the max no of continuous zeros in a number enclosed by 1.
  */

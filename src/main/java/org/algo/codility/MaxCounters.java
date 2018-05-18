@@ -1,10 +1,10 @@
-//        MaxCounters
+package org.algo.codility;
+//        org.algo.MaxCounters
 //        START
 //        Calculate the values of counters after applying all alternating operations: increase counter by 1; set value of all counters to current maximum
 
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Map;
 
 public class MaxCounters {
     public int[] solution(int N, int[] A) {
